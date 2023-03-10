@@ -1,6 +1,6 @@
 # Basic-Java-Programs
 
-## #1.Java program to print the sum, multiply, subtract, divide and remainder of two numbers:
+### #1. Java program to print the sum, multiply, subtract, divide and remainder of two numbers:
 
 ```
 //Java program to print the sum, multiply, subtract, divide and remainder of two numbers
@@ -33,7 +33,7 @@ public class ArithmeticOperations
 
 ```
 
-## Program and Output screenshot:
+### Program and Output screenshots:
 
 ![out](prog1.png)
 
