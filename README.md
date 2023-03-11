@@ -217,3 +217,31 @@ public class MonthDays {
 
 ![out](out5.png)
 
+
+
+### #6. Java program to print the even numbers from 1 to 20:
+
+```
+// Java program to print the even numbers from 1 to 20....
+
+public class EvenNumbers
+{
+    public static void main(String[] args)
+    {
+        for (int i = 1; i <= 20; i++)
+        {
+            if(i%2==0)
+            {
+                System.out.print(i+"\t");
+            }
+        }
+    }
+}
+
+```
+
+### Program and Output screenshots:
+
+![out](prog6.png)
+
+![out](out6.png)
