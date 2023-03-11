@@ -2,7 +2,7 @@
 
 ### #1. Java program to print the sum, multiply, subtract, divide and remainder of two numbers:
 
-```
+```java
 //Java program to print the sum, multiply, subtract, divide and remainder of two numbers
 
 import java.util.*;
@@ -42,7 +42,7 @@ public class ArithmeticOperations
 
 ### #2. Java program to compare two numbers:
 
-```
+```java
 // Java program to compare two numbers...
 
 import java.util.*;
@@ -82,7 +82,7 @@ public class CompareNumber
 
 ### #3. Java program to convert a string to an integer:
 
-```
+```java
 // Java program to convert a string to an integer.....
 
 import java.util.*;
@@ -115,7 +115,7 @@ public class Str {
 
 ### #4. Java Program to find area of rhombus:
 
-```
+```java
 //Java Program to find area of rhombus..
 
 import java.util.*;
@@ -145,7 +145,7 @@ public class RhombusArea
 
 ### #5. Java program to find the number of days in a month:
 
-```
+```java
 // Java program to find the number of days in a month...
 
 import java.util.*;
@@ -221,7 +221,7 @@ public class MonthDays {
 
 ### #6. Java program to print the even numbers from 1 to 20:
 
-```
+```java
 // Java program to print the even numbers from 1 to 20....
 
 public class EvenNumbers
@@ -245,3 +245,54 @@ public class EvenNumbers
 ![out](prog6.png)
 
 ![out](out6.png)
+
+
+### #7. Java program to create a simple calculator:
+
+```java
+// Java program to print the even numbers from 1 to 20....
+
+// Java program to create a simple calculator...
+
+import java.util.Scanner;
+public class Calculator {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        int num1 = s.nextInt();
+        System.out.print("Enter the second number: ");
+        int num2 = s.nextInt();
+        System.out.print("Enter an operator to perform 1.Addition, 2.Subtraction, 3.Multiplication, 4.Division: ");
+        int option = s.nextInt();
+        int result;
+        switch(option){
+            case 1:
+                result = num1 + num2;
+                System.out.println("Addition of the two numbers is : " + result);
+                break;
+            case 2:
+                result = num1 - num2;
+                System.out.println("Subtraction of the two numbers is : " + result);
+                break;
+            case 3:
+                result = num1 * num2;
+                System.out.println("Multiplication of the two numbers is : " + result);
+                break;
+            case 4:
+                result = num1 / num2;
+                System.out.println("Division of the two numbers is : " + result);
+                break;
+            default:
+                System.out.println("Invalid operator");
+        }
+    }
+}
+
+
+```
+
+### Program and Output screenshots:
+
+![out](prog7.png)
+
+![out](out7.png)
