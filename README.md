@@ -250,8 +250,6 @@ public class EvenNumbers
 ### #7. Java program to create a simple calculator:
 
 ```java
-// Java program to print the even numbers from 1 to 20....
-
 // Java program to create a simple calculator...
 
 import java.util.Scanner;
