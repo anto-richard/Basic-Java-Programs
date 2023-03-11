@@ -3,7 +3,7 @@
 ### #1. Java program to print the sum, multiply, subtract, divide and remainder of two numbers:
 
 ```java
-//Java program to print the sum, multiply, subtract, divide and remainder of two numbers
+//Java program to print the sum, multiply, subtract, divide and remainder of two numbers....
 
 import java.util.*;
 public class ArithmeticOperations
@@ -33,9 +33,11 @@ public class ArithmeticOperations
 
 ```
 
-### Program and Output screenshots:
+### Program screenshot:
 
 ![out](prog1.png)
+
+### Output screenshot:
 
 ![out](out1.png)
 
@@ -73,9 +75,11 @@ public class CompareNumber
 
 ```
 
-### Program and Output screenshots:
+### Program screenshot:
 
 ![out](prog2.png)
+
+### Output screenshot:
 
 ![out](out2.png)
 
@@ -106,9 +110,11 @@ public class Str {
 
 ```
 
-### Program and Output screenshots:
+### Program screenshot:
 
 ![out](prog3.png)
+
+### Output screenshot:
 
 ![out](out3.png)
 
@@ -136,9 +142,11 @@ public class RhombusArea
 
 ```
 
-### Program and Output screenshots:
+### Program screenshot:
 
 ![out](prog4.png)
+
+### Output screenshot:
 
 ![out](out4.png)
 
@@ -209,11 +217,13 @@ public class MonthDays {
 
 ```
 
-### Program and Output screenshots:
+### Program screenshot:
 
 ![out](prog5.1.png)
 
 ![out](prog5.2.png)
+
+### Output screenshot:
 
 ![out](out5.png)
 
@@ -240,9 +250,11 @@ public class EvenNumbers
 
 ```
 
-### Program and Output screenshots:
+### Program screenshot:
 
 ![out](prog6.png)
+
+### Output screenshot:
 
 ![out](out6.png)
 
@@ -289,8 +301,42 @@ public class Calculator {
 
 ```
 
-### Program and Output screenshots:
+### Program screenshot:
 
 ![out](prog7.png)
 
+### Output screenshot:
+
 ![out](out7.png)
+
+
+### #8. Java program to print multiplication table of given number:
+
+```java
+// Java program to print multiplication table of given number...
+
+import java.util.Scanner;
+public class MultiplicationTable
+{
+    public static void main(String[] args)
+    {
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter the number to print the multiplication table : ");
+        int z = s.nextInt();
+        for(int i=1;i<=10;i++)
+        {
+            System.out.println(z+" * "+i+" = "+(z*i));
+        }
+    }
+}
+
+```
+
+### Program screenshot:
+
+![out](prog8.png)
+
+### Output screenshot:
+
+![out](out8.png)
+
